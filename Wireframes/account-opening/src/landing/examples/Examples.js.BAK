@@ -1,0 +1,120 @@
+import React from 'react'
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import LoginPage from '../../views/loginpage/LoginPage'
+import ToggleView from '../../views/sample/toggle-view/ToggleView'
+import SampleView from '../../views/SampleView'
+import AccountSetupView from '../../views/account-setup/AccountSetupView'
+import ProductTypeView from '../../views/product-type/ProductTypeView'
+import CustomerBasic from '../../views/CustomerBasicInfo/CustomerBasic'
+import ComponentToPrint from '../../views/Terms&Condition/ComponentToPrint'
+import Feedback from '../../views/Feedback/FeedbackView'
+import AccountEnrollmentFulfillmentView from '../../views/post-account-fulfillment/account-enrollment/AccountEnrollmentFulfillmentView'
+import ExpectedTransactionView from '../../views/post-account-fulfillment/expected-transaction/ExpectedTransactionView'
+import SignatureView from '../../views/post-account-fulfillment/signeture-upload/SignatureView'
+import FundingDetailsView from '../../views/post-account-fulfillment/funding-details/FundingDetailsView'
+import StepBuilderView from '../../views/sample/step-builder-view/StepBuilderView'
+import HomePageView from '../../views/HomePage/HomePageView'
+import OnlineBankingEnrollmentView from '../../views/post-account-fulfillment/OnlineBankingEnrollmentView'
+
+const Examples = () => {
+  return (
+    <Router>
+      <ul>
+        <li>
+          <Link to="/accountSetup">Account Setup</Link>
+        </li>
+        <li>
+          <Link to="/toggle">Toggle</Link>
+        </li>
+        <li>
+          <Link to="/formExample">Form Example</Link>
+        </li>
+        <li>
+          <Link to="/stepBuilder">StepBuilder Example</Link>
+        </li>
+        <li>
+          <Link to="/loginPage">LoginPage</Link>
+        </li>
+        <li>
+          <Link to="/homePage">HomePage</Link>
+        </li>
+        <li>
+          <Link to="/savings">Open Savings Account</Link>
+        </li>
+        <li>
+          <Link to="/CustomerBasic">Customer Basic Info</Link>
+        </li>
+        <li>
+          <Link to="/TermsAndCondition">Terms & Condition</Link>
+        </li>
+        <li>
+          <Link to="/accountEnrollment">Account Enrollment Fulfillment</Link>
+        </li>
+        <li>
+          <Link to="/expectedTransaction">Expected Transaction</Link>
+        </li>
+        <li>
+          <Link to="/signUpload">Sign Upload</Link>
+        </li>
+        <li>
+          <Link to="/Feedback">Feedback</Link>
+        </li>
+        <li>
+          <Link to="/fundingDetails">Funding Deatils</Link>
+        </li>
+        <li>
+          <Link to="/onlineBanking">onlineBanking Demo page</Link>
+        </li>
+      </ul>
+      <Switch>
+        <Route path="/accountSetup">
+          <AccountSetupView />
+        </Route>
+        <Route path="/loginPage">
+          <LoginPage />
+        </Route>
+        <Route path="/homePage">
+          <HomePageView />
+        </Route>
+        <Route path="/accountEnrollment">
+          <AccountEnrollmentFulfillmentView />
+        </Route>
+        <Route path="/formExample">
+          <SampleView />
+        </Route>
+        <Route path="/toggle">
+          <ToggleView />
+        </Route>
+        <Route path="/stepBuilder">
+          <StepBuilderView />
+        </Route>
+        <Route path="/savings">
+          <ProductTypeView />
+        </Route>
+        <Route path="/CustomerBasic">
+          <CustomerBasic />
+        </Route>
+        <Route path="/TermsAndCondition">
+          <ComponentToPrint />
+        </Route>
+        <Route path="/feedback">
+          <Feedback />
+        </Route>
+        <Route path="/expectedTransaction">
+          <ExpectedTransactionView />
+        </Route>
+        <Route path="/signUpload">
+          <SignatureView />
+        </Route>
+        <Route path="/fundingDetails">
+          <FundingDetailsView />
+        </Route>
+        <Route path="/onlineBanking">
+          <OnlineBankingEnrollmentView />
+        </Route>
+      </Switch>
+    </Router>
+  )
+}
+
+export default Examples

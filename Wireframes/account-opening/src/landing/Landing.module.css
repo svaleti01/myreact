@@ -1,0 +1,14 @@
+.header {
+  height: 10vh;
+  background-color: rgb(240, 109, 25);
+}
+
+.content {
+  height: 68vh;
+  overflow-y: auto;
+}
+
+.footer {
+  height: 10vh;
+  background-color: rgb(150, 152, 156);
+}

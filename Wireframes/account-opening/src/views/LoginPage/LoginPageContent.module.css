@@ -1,0 +1,24 @@
+.content {
+  
+  /* background: linear-gradient(90deg, white 19px, transparent 1%) center, linear-gradient(white 19px, transparent 1%) center, orange;
+  background-size: 21px 21px; */
+  font-size: 220%;
+  font-weight:bold;
+}
+.content1{
+  background: linear-gradient(90deg, white 19px, transparent 1%) center, linear-gradient(white 19px, transparent 1%) center, orange;
+  background-size: 21px 21px; 
+
+}
+.anchor {
+  background-color: pink;
+}
+.view {
+  color: orange !important;
+
+}
+.lay {
+  font-size: 200%;
+  font-weight: bold;
+  color: orange;
+}
