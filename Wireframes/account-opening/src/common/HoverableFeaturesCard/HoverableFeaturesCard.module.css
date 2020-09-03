@@ -1,0 +1,42 @@
+.featureCarddiv {
+    text-align: center;
+    color: #2e2e2e;
+    padding: 0;
+    /* border-bottom-color: blueviolet;
+    border-bottom-width: 4px; */
+   /* border:2px solid blueviolet;
+        border-left: none;
+    border-right: none;
+    border-top:none;*/
+    box-shadow:5px 10px  gainsboro;
+
+    
+}
+.featureCardIcon {
+
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+    margin: 0 auto 1px;
+    font-size: 48px;
+    line-height: 0px;
+   align-self: center;
+} 
+h4.featureCardTitle {
+    color: rgb(82 82 82);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 400;
+    margin: 12px 0 0 !important;
+}
+.featureCardImage{
+  
+    margin:0px;
+    height:200px;
+
+}
+.featureCard{
+    height:300px;
+
+}

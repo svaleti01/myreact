@@ -1,0 +1,18 @@
+.featuresCard {
+    border: 1px solid rgb(235, 234, 234);
+    padding: 0 px 15px 15px 15px;
+    background: #fff;
+}
+.features {
+    list-style: none;
+    font-size: 18px;
+}
+.features li {
+    display: inline-block;
+}
+.features li:first-child {
+    margin-left: 0;
+}
+.featureCardSection {
+    margin: 15px 0 0;
+}

@@ -1,0 +1,18 @@
+.th{
+    background-color: #f5821f;
+    padding: 4px 4px;
+    color: white;
+    font-size: medium;
+    font-weight: 400;
+}
+.td{
+    padding: 10px 4px;
+}
+
+ .super{
+    vertical-align: super;
+} 
+
+.colorGreen{
+    color: green;
+}

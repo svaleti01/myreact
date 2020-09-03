@@ -1,0 +1,26 @@
+.featureCard {
+    text-align: center;
+    color: #2e2e2e;
+}
+.featureCardIcon {
+    background-color: rgb(240, 109, 25);
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+    font-size: 48px;
+    line-height: 60px;
+    color: #fff;
+}
+h4.featureCardTitle {
+    color: rgb(82 82 82);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 400;
+    margin: 12px 0 0 !important;
+}
+.featureCard .ant-card-body {
+    padding: 0;
+}

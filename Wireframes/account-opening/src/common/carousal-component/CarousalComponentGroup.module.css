@@ -1,0 +1,148 @@
+
+.carouselImage{
+    width:100%;
+    height:600px;
+    margin:0px;
+  
+    
+  
+  }
+  .pic{
+  width:250px;
+  height:120px;
+   padding:0px 0px 40px 16px; 
+   
+  
+  }
+  .forpolkadots{
+    background: linear-gradient(90deg, white 19px, transparent 1%) center, linear-gradient(white 19px, transparent 1%) center, orange;
+  background-size: 21px 21px;
+  border: 1px solid rgb(234, 235, 235);
+  padding: 15px;
+ 
+  margin: 0 0 16px;
+  height:650px;
+  width:auto;
+
+  }
+  
+  .img3{
+  width:300px;
+  height:80px;
+  
+  
+  
+  }
+  .descriptiontag{  
+  color:#666;
+  text-align: right;
+  padding: 10px;
+  font-size: 130%;
+  font-family: FuturaStd-Bold;
+  text-transform:uppercase;
+  }
+  .header{
+  color:orange !important;
+  font-family: Georgia;
+   background-color: lightgrey;
+   padding: 20px 20px 10px 80px;
+   text-align: left!important;
+   font-size:170%;
+   
+   font-weight: bold!important;
+  }
+  .topheader{
+  color: black;
+  font-family: Georgia;
+  background-color: lightgrey;
+  width: 1310px;
+  text-align: center;
+  padding: 20px;
+  margin:-9px;
+  
+  }
+  .spa{font-size: 2em;
+  color:orange;}
+  .small{
+    width: 960px;
+    height:200px;   
+  }
+  .container{
+    display:flex;
+    flex-wrap:wrap;
+    width: 100%;
+    height:650px;
+    justify-content: center;
+    padding:4px ;
+    /* background: linear-gradient(90deg, white 19px, transparent 1%) center, linear-gradient(white 19px, transparent 1%) center, orange;
+     */
+     color: #f5821f;
+   
+    
+     background: orange;
+    
+    /* background-size: 21px 21px; */
+  
+  }
+  
+  
+  .container1 {
+  background: linear-gradient(90deg, white 19px, transparent 1%) center, linear-gradient(white 19px, transparent 1%) center, orange;
+  background-size: 21px 21px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .sidebar {
+  flex: 1;
+  background-color:white;
+  color:orange;
+  border-right:5px solid orange
+  }
+  
+  
+  
+  .snapdrawerleft {
+    z-index: 10;
+    overflow: visible !important;
+    position: fixed;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  border-right: 6px solid #f5821f;
+  width: 280px;
+  left: 0;
+  background: rgb(233, 230, 230);
+  }
+  .inside{
+    width: 960px;
+    height:200px;
+    background-color: orange;
+    text-align: center;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 130%;
+  color:white;
+  
+  }
+  .insidespan{
+    margin:40px 40px;
+    padding:60px 60px;
+     width: 120px;
+    height:200px;
+    border:none;
+    font-size: 150%;
+  } 
+
+  .bannerCard {
+    border: 1px solid rgb(234, 235, 235);
+    padding: 15px;
+    background: #fff;
+    margin: 0 0 16px;
+    height:700px;
+    width:auto;
+}

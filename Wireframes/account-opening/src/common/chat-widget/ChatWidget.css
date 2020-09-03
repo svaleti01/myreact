@@ -1,0 +1,12 @@
+.rcw-conversation-container > .rcw-header {
+  background-color: rgb(240, 117, 36);
+}
+
+.rcw-message > .rcw-response {
+  background-color: black;
+  color: white;
+}
+
+.rcw-launcher {
+  background-color: rgb(240, 117, 36);
+}
